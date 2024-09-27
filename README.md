@@ -27,7 +27,11 @@ A modern, responsive portfolio website showcasing my skills, projects, and GitHu
 
 ## Deployment
 
-This project is deployed using Github Pages. You can view the live site at [your-url.com].
+This project is deployed using netlify. You can view the live site at [(https://stage-react-api--justice-cupples.netlify.app/#/)].
+
+## Trello Board
+
+[Trello Board](https://trello.com/b/TaX0bR95/jc-portfolio)
 
 ## Contact
 
