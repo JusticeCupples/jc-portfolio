@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p>&copy;2024 created and desinged by Justice Cupples.</p>
+        <p>&copy;2024 created and designed by Justice Cupples.</p>
         <div className="social-links">
           <a href="https://github.com/JusticeCupples" target="_blank" rel="noopener noreferrer">
             GitHub

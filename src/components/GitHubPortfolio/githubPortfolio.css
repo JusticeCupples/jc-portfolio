@@ -73,6 +73,8 @@ h5 {
 .repo-card h3 {
   margin-top: 0;
   color: var(--primary-color);
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 button {
@@ -338,5 +340,19 @@ button:hover {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 480px) {
+  .project-card,
+  .activity-card,
+  .repo-card {
+    padding: 15px;
+  }
+
+  .project-card h3,
+  .activity-card h3,
+  .repo-card h3 {
+    font-size: 18px;
   }
 }
