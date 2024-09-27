@@ -92,6 +92,10 @@ body {
   padding-left: 20px;
 }
 
+.project-card ul li {
+  margin-bottom: 10px;
+}
+
 .image-container {
   display: flex;
   justify-content: space-between;

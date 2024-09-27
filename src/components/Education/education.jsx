@@ -40,7 +40,7 @@ function Education() {
         <div className="education-item">
           <h3>TripleTen Full Stack Software Engineering Course</h3>
           <p>
-            Completed an intensive full-stack software engineering program, gaining expertise in
+            I completed an intensive full-stack software engineering program, gaining expertise in
             both frontend and backend technologies. The course covered a wide range of topics
             including:
           </p>

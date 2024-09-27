@@ -105,4 +105,9 @@ body {
     border: none;
     margin: 0;
   }
+
+  .hero-image:hover {
+    transform: none;
+    box-shadow: none;
+  }
 }

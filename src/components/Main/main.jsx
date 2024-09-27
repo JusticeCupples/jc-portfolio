@@ -73,6 +73,8 @@ function Main() {
             <li>MongoDB</li>
             <li>ExpressJS</li>
             <li>Google Cloud</li>
+            <li>RestAPI</li>
+            <li>Git</li>
           </ul>
         </section>
         <section className="featured-projects" id="featured-projects">
