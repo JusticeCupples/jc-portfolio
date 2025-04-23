@@ -59,6 +59,22 @@ body {
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 1rem;
+  animation: slideInAndFade 0.5s ease forwards;
+  opacity: 0;
+  transform: translateY(20px);
+  animation-delay: calc(var(--item-index) * 0.1s);
+  cursor: default;
+}
+
+@keyframes slideInAndFade {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .project-grid {
@@ -143,12 +159,15 @@ body {
   color: white;
   text-decoration: none;
   border-radius: 5px;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .github-links a:hover {
   background-color: #0056b3;
   text-decoration: none;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(3, 102, 214, 0.3);
 }
 
 .testimonials {
@@ -183,4 +202,45 @@ body {
 
 .testimonial-author a:hover {
   text-decoration: underline;
+}
+
+.skill-item {
+  animation: slideInUp 0.5s ease forwards;
+  opacity: 0;
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.tech-tag {
+  display: inline-block;
+  padding: 6px 12px;
+  background: linear-gradient(135deg, #0366d6, #0056b3);
+  color: white;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(3, 102, 214, 0.2);
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.tech-tag:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(3, 102, 214, 0.3);
 }

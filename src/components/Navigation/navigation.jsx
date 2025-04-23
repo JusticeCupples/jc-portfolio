@@ -57,7 +57,7 @@ function Navigation({ isGitHubPage }) {
               Home
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/#about" onClick={(e) => handleNavClick(e, '#about')}>
               About
             </Link>
@@ -66,7 +66,7 @@ function Navigation({ isGitHubPage }) {
             <Link to="/#featured-projects" onClick={(e) => handleNavClick(e, '#featured-projects')}>
               My Work
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/education" onClick={(e) => handleNavClick(e, '/education')}>
               Education

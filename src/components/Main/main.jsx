@@ -62,19 +62,25 @@ function Main() {
             share knowledge and learn from others.
           </p>
         </section>
-        <section className="skills">
+        <section className="skills" data-aos="fade-up">
           <h2>My Skills</h2>
           <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript ES7</li>
-            <li>React 18</li>
-            <li>Node 21</li>
-            <li>MongoDB</li>
-            <li>ExpressJS</li>
-            <li>Google Cloud</li>
-            <li>RestAPI</li>
-            <li>Git</li>
+            {[
+              'HTML5',
+              'CSS3',
+              'JavaScript ES7',
+              'React 18',
+              'Node 21',
+              'MongoDB',
+              'ExpressJS',
+              'Google Cloud',
+              'RestAPI',
+              'Git',
+            ].map((skill, index) => (
+              <li key={skill} style={{ '--item-index': index }}>
+                {skill}
+              </li>
+            ))}
           </ul>
         </section>
         <section className="featured-projects" id="featured-projects">
@@ -82,6 +88,12 @@ function Main() {
           <div className="project-grid">
             <div className="project-card">
               <h3>Housing Price Prediction Tool</h3>
+              <div className="tech-stack">
+                <span className="tech-tag">Python</span>
+                <span className="tech-tag">Data Analysis</span>
+                <span className="tech-tag">Matplotlib</span>
+                <span className="tech-tag">FRED API</span>
+              </div>
               <p>
                 This Python-based tool predicts housing prices for different states in the USA using
                 historical data and simple projections.
@@ -123,13 +135,20 @@ function Main() {
             </div>
             <div className="project-card">
               <h3>WTWR (What to Wear)</h3>
+              <div className="tech-stack">
+                <span className="tech-tag">React</span>
+                <span className="tech-tag">Express.js</span>
+                <span className="tech-tag">MongoDB</span>
+                <span className="tech-tag">Node.js</span>
+                <span className="tech-tag">Google Cloud</span>
+              </div>
               <p>
                 WTWR is a full-stack web application that helps users decide what to wear based on
                 the weather. It features user authentication, card creation, and a profile section.
               </p>
-              <a href="https://jc-wtwr.crabdance.com/" target="_blank" rel="noopener noreferrer">
+              {/* <a href="https://jc-wtwr.crabdance.com/" target="_blank" rel="noopener noreferrer">
                 View Live Demo
-              </a>
+              </a> */}
               <h4>Features:</h4>
               <ul>
                 <li>User authentication (sign up, sign in, sign out)</li>
@@ -173,6 +192,12 @@ function Main() {
             </div>
             <div className="project-card">
               <h3>Raphael Discord Bot</h3>
+              <div className="tech-stack">
+                <span className="tech-tag">Node.js</span>
+                <span className="tech-tag">Discord.js</span>
+                <span className="tech-tag">REST API</span>
+                <span className="tech-tag">JavaScript</span>
+              </div>
               <p>
                 Raphael is a feature-rich Discord bot built with Node.js and Discord.js. It enhances
                 server engagement with meme commands, anime news updates, XP rewards, and more.
