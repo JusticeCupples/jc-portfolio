@@ -158,8 +158,8 @@ function Main() {
                 <li>Secure password hashing</li>
                 <li>Hosted on Google Cloud</li>
               </ul>
-              <h4>Tech Stack:</h4>
-              <p>Frontend: React | Backend: Express.js | Database: MongoDB</p>
+              <h4>Github Repositories:</h4>
+              {/* <p>Frontend: React | Backend: Express.js | Database: MongoDB</p> */}
               <div className="github-links">
                 <a
                   href="https://github.com/JusticeCupples/se_project_express"
@@ -217,9 +217,9 @@ function Main() {
                 <li>Daily and weekly anime news digests</li>
                 <li>Utilizes Discord.js for seamless integration</li>
               </ul>
-              <h4>Tech Stack:</h4>
+              {/* <h4>Tech Stack:</h4>
               <p>Node.js | Discord.js | JavaScript</p>
-              <h4>Screenshots:</h4>
+              <h4>Screenshots:</h4> */}
               <div className="image-container">
                 <img
                   src={disbotA}
